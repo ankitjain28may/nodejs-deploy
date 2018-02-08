@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 8.9.4
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: nodejs-deploy18
+
+
