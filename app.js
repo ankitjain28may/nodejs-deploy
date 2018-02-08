@@ -43,9 +43,9 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-var port = process.env.PORT || 3000;
+var port = 3000;
 app.listen(port, function() {
-    console.log("server listening at port" + port);
+    console.log("server listening at port " + port);
 });
 
 module.exports = app;
